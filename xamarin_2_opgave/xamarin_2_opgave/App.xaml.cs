@@ -10,6 +10,8 @@ namespace xamarin_2_opgave
         {
             InitializeComponent();
 
+            Xamarin.Essentials.VersionTracking.Track();
+
             MainPage = new MainPage();
         }
 

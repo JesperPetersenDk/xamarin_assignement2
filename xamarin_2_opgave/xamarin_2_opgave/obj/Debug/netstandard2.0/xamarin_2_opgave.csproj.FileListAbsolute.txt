@@ -15,4 +15,7 @@ C:\Users\Jespe\source\repos\xamarin_2_opgave\xamarin_2_opgave\xamarin_2_opgave\b
 C:\Users\Jespe\source\repos\xamarin_2_opgave\xamarin_2_opgave\xamarin_2_opgave\obj\Debug\netstandard2.0\xamarin_2_opgave.csproj.CopyComplete
 C:\Users\Jespe\source\repos\xamarin_2_opgave\xamarin_2_opgave\xamarin_2_opgave\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Jespe\source\repos\xamarin_2_opgave\xamarin_2_opgave\xamarin_2_opgave\obj\Debug\netstandard2.0\PageView\ShareView.xaml.g.cs
-C:\Users\Jespe\source\repos\xamarin_2_opgave\xamarin_2_opgave\xamarin_2_opgave\obj\Debug\netstandard2.0\MapView.xaml.g.cs
+C:\Users\Jespe\source\repos\xamarin_2_opgave\xamarin_2_opgave\xamarin_2_opgave\obj\Debug\netstandard2.0\PageView\MapView.xaml.g.cs
+C:\Users\Jespe\source\repos\xamarin_2_opgave\xamarin_2_opgave\xamarin_2_opgave\obj\Debug\netstandard2.0\PageView\Tracking.xaml.g.cs
+C:\Users\Jespe\source\repos\xamarin_2_opgave\xamarin_2_opgave\xamarin_2_opgave\obj\Debug\netstandard2.0\Geo.xaml.g.cs
+C:\Users\Jespe\source\repos\xamarin_2_opgave\xamarin_2_opgave\xamarin_2_opgave\obj\Debug\netstandard2.0\PageView\Geo.xaml.g.cs

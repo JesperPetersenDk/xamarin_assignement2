@@ -17,8 +17,10 @@ namespace xamarin_2_opgave
         {
             InitializeComponent();
 
-            ShareView.Title = "Share";
+            ShareText.Title = "Share";
             MapViewText.Title = "Map";
+            TrackingText.Title = "Tracking";
+            GeoText.Title = "Geo";
         }
 
     }

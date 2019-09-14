@@ -17,16 +17,24 @@ namespace xamarin_2_opgave {
     public partial class MainPage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::xamarin_2_opgave.ShareView ShareView;
+        private global::xamarin_2_opgave.ShareView ShareText;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::xamarin_2_opgave.MapView MapViewText;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::xamarin_2_opgave.Tracking TrackingText;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::xamarin_2_opgave.Geo GeoText;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
-            ShareView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::xamarin_2_opgave.ShareView>(this, "ShareView");
+            ShareText = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::xamarin_2_opgave.ShareView>(this, "ShareText");
             MapViewText = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::xamarin_2_opgave.MapView>(this, "MapViewText");
+            TrackingText = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::xamarin_2_opgave.Tracking>(this, "TrackingText");
+            GeoText = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::xamarin_2_opgave.Geo>(this, "GeoText");
         }
     }
 }

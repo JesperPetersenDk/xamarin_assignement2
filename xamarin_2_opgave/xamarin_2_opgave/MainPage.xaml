@@ -8,8 +8,10 @@
             Title="Forside"
              x:Class="xamarin_2_opgave.MainPage">
 
-    <local:ShareView x:Name="ShareView"/>
+    <local:ShareView x:Name="ShareText"/>
     <local:MapView x:Name="MapViewText"/>
+    <local:Tracking x:Name="TrackingText"/>
+    <local:Geo x:Name="GeoText"/>
 
 
 
