@@ -10,6 +10,7 @@
             
             <Label x:Name="GeoTitle" FontAttributes="Bold" FontSize="Title"/>
             <Button x:Name="GeoText" Clicked="GeoText_Clicked" />
+            <Button x:Name="GeoTextOther" Clicked="GeoTextOther_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -8,7 +8,12 @@
     <ContentPage.Content>
         <StackLayout>
             <Entry Placeholder="Stedet" x:Name="PlacemarkText" />
-            <Entry Placeholder="Gå eller Bil" x:Name="TypeText" />
+            <Picker x:Name="TypeText" HorizontalOptions="FillAndExpand">
+                <Picker.Items>
+                    <x:String>Gå</x:String>
+                    <x:String>Bil</x:String>
+                </Picker.Items>
+            </Picker>
             <Button x:Name="Find_vej" Clicked="Find_vej_Clicked" />
         </StackLayout>
     </ContentPage.Content>

@@ -35,7 +35,7 @@ namespace xamarin_2_opgave
 
         private NavigationMode GetNavmode()
         {
-            string typeText = TypeText.Text.ToLower();
+            string typeText = TypeText.SelectedItem.ToString().ToLower();
             var NavMode = NavigationMode.None;
             switch (typeText)
             {

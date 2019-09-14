@@ -19,12 +19,25 @@ namespace xamarin_2_opgave
             InitializeComponent();
 
             GeoText.Text = "Giv Geolocation";
+            GeoTextOther.Text = "Giv Geo på Nansensgade 19";
         }
 
-        private async Task GeoText_Clicked(object sender, EventArgs e)
+        private async void GeoText_Clicked(object sender, EventArgs e)
         {
             var location = await Geolocation.GetLastKnownLocationAsync();
             GeoTitle.Text = (location != null) ? $"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}" : "Hov hov hov";
+        }
+
+        private async void GeoTextOther_Clicked(object sender, EventArgs e)
+        {
+            var address = "Nansensgade 19, 1366 København";
+            var locations = await Geocoding.GetLocationsAsync(address);
+
+            var location = locations?.FirstOrDefault();
+            if (location != null)
+            {
+                GeoTitle.Text = $"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}";
+            }
         }
     }
 }
