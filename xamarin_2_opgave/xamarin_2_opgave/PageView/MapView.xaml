@@ -8,7 +8,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Entry Placeholder="Stedet" x:Name="PlacemarkText" />
-            <Picker x:Name="TypeText" HorizontalOptions="FillAndExpand">
+            <Picker x:Name="TypeText" HorizontalOptions="FillAndExpand" Title="Hvilken type?">
                 <Picker.Items>
                     <x:String>Gå</x:String>
                     <x:String>Bil</x:String>
